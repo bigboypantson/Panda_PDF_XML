@@ -1,0 +1,10 @@
+// https://aka.ms/devcontainer.json
+{
+	"name": "Existing Docker Compose (Extend)",
+	"dockerComposeFile": [
+		"../compose.yaml"
+	],
+	"service": "server",
+	"workspaceFolder": "/var/www/html",
+	"remoteUser": "root"
+}
